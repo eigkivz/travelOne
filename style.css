@@ -45,14 +45,12 @@ nav .menu li:hover {
 #content-one {
     height: 420px;
     border-bottom: 2px solid #eee;
-    background: lightcoral;
     overflow: hidden;
 }
 .content {
     padding: 20px;
     margin-top: 20px;
     overflow: hidden;
-    background: lightcyan;
 }
 .content-left-img {
     float: left;
@@ -70,14 +68,118 @@ nav .menu li:hover {
 }
 .content-right-info a{
     display: inline-block;
+    border: 3px solid #2eccfa;
     margin-top: 5px;
     padding: 15px;
-    background: #333;
+    background: #2eccfa;
     color: white;
     text-decoration: none;
 }
 .content-right-info a:hover {
     background: none;
-    border: 3px solid black;
+    padding: 15px;
+    border: 3px solid #2eccfa;
     color: black;
+}
+/* End Content one style */
+
+.content-info {
+  width: 100%;
+}
+.content-head {
+  padding: 50px;
+  text-align: center;
+}
+.content-info-left {
+  float: left;
+  height: 350px;
+  padding: 50px;
+  width: 50%;
+  background: url(img/travel2.JPG) no-repeat;
+  background-size: cover;
+}
+.content-info-left a {
+  margin-top: 15px;
+  display: inline-block;
+  padding: 10px 20px;
+  background: #2eccfa;
+  color: azure;
+  text-decoration: none;
+  border: 3px solid #2eccfa;
+}
+.content-info-left a:hover {
+  background: none;
+  border: 3px solid #2eccfa;
+}
+.content-info-left p {
+  color: white;
+}
+.content-info-right {
+  float: left;
+  height: 350px;
+  padding: 50px;
+  width: 50%;
+  background: url(img/travel3.JPG) no-repeat;
+  background-size: cover;
+}
+.content-info-right a{
+  margin-top: 15px;
+  display: inline-block;
+  padding: 10px 20px;
+  background: #2eccfa;
+  color: azure;
+  text-decoration: none;
+  border: 3px solid #2eccfa;
+}
+.content-info-right a:hover {
+  background: none;
+  border: 3px solid #2eccfa;
+}
+.content-info-right p {
+  color: white;
+}
+/* End content two */
+
+.contact-head {
+  text-align: center;
+  margin-top: 50px;
+}
+.contact-info-about {
+  float: left;
+}
+.contact-info-about {
+  padding: 50px;
+  width: 50%;
+  text-align: center;
+}
+.contact-info-about label{
+  display: inline-block;
+  text-align: left;
+  width: 100px;
+}
+.contact-info-about input{
+  padding: 5px 20px;
+}
+.contact-info-about button {
+  padding: 15px 35px;
+  border: 3px solid #2eccfa; 
+  background: #2eccfa;
+  color: #eee;
+}
+.contact-info-about button:hover {
+  background: none;
+  border: 3px solid #2eccfa;
+  color: black;
+}
+.contact-info-map iframe{
+  margin-top: 20px;
+  width: 50%;
+}
+/* End contact style */
+
+footer {
+  margin-top: 20px;
+  border-top: 2px solid #eee;
+  padding: 15px;
+  text-align: center;
 }
