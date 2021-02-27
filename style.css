@@ -10,9 +10,9 @@
   display: table;
 }
 .container {
-    margin: 0 auto;
-    width: 950px;
-  }
+  margin: 0 auto;
+  max-width: 950px;
+}
 /* End format style */
 
 nav {
@@ -43,43 +43,43 @@ nav .menu li:hover {
 /* End navbar style */
 
 #content-one {
-    height: 420px;
-    border-bottom: 2px solid #eee;
-    overflow: hidden;
+  height: 420px;
+  border-bottom: 2px solid #eee;
+  overflow: hidden;
 }
 .content {
-    padding: 20px;
-    margin-top: 20px;
-    overflow: hidden;
+  padding: 20px;
+  margin-top: 20px;
+  overflow: hidden;
 }
 .content-left-img {
-    float: left;
+  float: left;
 }
-.contet-left-img img{
-    width: 500px;
+.contet-left-img img {
+  width: 500px;
 }
 .content-right-info {
-    width: 320px;
-    float: left;
-    margin-left: 20px;
+  width: 320px;
+  float: left;
+  margin-left: 20px;
 }
-.content-right-info p{
-    margin: 20px 0;
+.content-right-info p {
+  margin: 20px 0;
 }
-.content-right-info a{
-    display: inline-block;
-    border: 3px solid #2eccfa;
-    margin-top: 5px;
-    padding: 15px;
-    background: #2eccfa;
-    color: white;
-    text-decoration: none;
+.content-right-info a {
+  display: inline-block;
+  border: 3px solid #2eccfa;
+  margin-top: 5px;
+  padding: 15px;
+  background: #2eccfa;
+  color: white;
+  text-decoration: none;
 }
 .content-right-info a:hover {
-    background: none;
-    padding: 15px;
-    border: 3px solid #2eccfa;
-    color: black;
+  background: none;
+  padding: 15px;
+  border: 3px solid #2eccfa;
+  color: black;
 }
 /* End Content one style */
 
@@ -122,7 +122,7 @@ nav .menu li:hover {
   background: url(img/travel3.JPG) no-repeat;
   background-size: cover;
 }
-.content-info-right a{
+.content-info-right a {
   margin-top: 15px;
   display: inline-block;
   padding: 10px 20px;
@@ -152,17 +152,17 @@ nav .menu li:hover {
   width: 50%;
   text-align: center;
 }
-.contact-info-about label{
+.contact-info-about label {
   display: inline-block;
   text-align: left;
   width: 100px;
 }
-.contact-info-about input{
+.contact-info-about input {
   padding: 5px 20px;
 }
 .contact-info-about button {
   padding: 15px 35px;
-  border: 3px solid #2eccfa; 
+  border: 3px solid #2eccfa;
   background: #2eccfa;
   color: #eee;
 }
@@ -171,7 +171,7 @@ nav .menu li:hover {
   border: 3px solid #2eccfa;
   color: black;
 }
-.contact-info-map iframe{
+.contact-info-map iframe {
   margin-top: 20px;
   width: 50%;
 }
@@ -182,4 +182,25 @@ footer {
   border-top: 2px solid #eee;
   padding: 15px;
   text-align: center;
+}
+
+@media screen and (max-width: 360px) {
+  nav {
+    height: auto;
+  }
+  nav .logo h1 {
+    margin-top: 0;
+    padding: 10px;
+    text-align: center;
+    float: none;
+  }
+  nav .menu {
+    float: none;
+  }
+  nav .menu li {
+    float: none;
+    text-align: center;
+    display: inline-block;
+    padding: 13px;
+  }
 }
